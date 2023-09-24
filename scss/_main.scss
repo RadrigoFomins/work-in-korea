@@ -189,6 +189,10 @@ input[type="text"],
 input[type="tel"] {
 	margin-bottom: 1.6rem;
 }
+textarea[name="question"] {
+	resize: none;
+	height: 7rem;
+}
 .successMessage {
 	display: none;
 	align-items: center;

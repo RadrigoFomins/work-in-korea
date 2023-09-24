@@ -776,6 +776,11 @@ input[type=tel] {
   margin-bottom: 1.6rem;
 }
 
+textarea[name=question] {
+  resize: none;
+  height: 7rem;
+}
+
 .successMessage {
   display: none;
   -webkit-box-align: center;
@@ -957,7 +962,7 @@ input[type=tel] {
 .footer__info p {
   display: block;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: max(1rem, min(1.2rem, 3.84vw));
   text-transform: uppercase;
 }
 .footer__info p b {
