@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!--#include file="ssi/head.html"-->
+</head>
+<body>
+	<div class="mob-menu"><button type="button" class="btn btn-menu"><i class="i_1"></i><i class="i_2"></i><i class="i_3"></i><span class="title_hide">Меню сайта</span></button></div>
+	<nav class="menu">
+		<div class="menu__close"><button type="button" class="btn btn-menu-close"><span class="title_hide">Меню сайта</span></button></div>
+		<ul class="menu__nav">
+			<li><a class="scroll" href="#okompany">О компании</a></li>
+			<li><a class="scroll" href="#orabote">О работе</a></li>
+			<li><a class="scroll" href="#kontakti">Контакты</a></li>
+		</ul>
+		<div class="menu__soc">
+			<a rel="nofollow" target="_blank" href="https://vk.com/korea_express">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#vk" />
+				</svg>
+				<span class="title_hide">Мы в ВКонтакте</span>
+			</a>
+			<a rel="nofollow" target="_blank" href="https://t.me/k_exs">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#telegram" />
+				</svg>
+				<span class="title_hide">Мы в Telegram</span>
+			</a>
+			<a rel="nofollow" target="_blank" href="https://wa.me/79527911919">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#whatsap" />
+				</svg>
+				<span class="title_hide">Написать в WhatsApp</span>
+			</a>
+		</div>
+	</nav>
+	<header class="header">
+		<div class="header__top animation-element">
+			<div class="ht_1">Южная Корея</div>
+			<div class="ht_2">Модельное агентство «Korea Express»</div>
+			<h1 class="ht_3">Хостес в караоке</h1>
+		</div>
+		<div class="header__ancet animation-element"><a rel="nofollow" target="_blank" href="https://forms.gle/7UM5vyt15RgcKYta9" class="btn btn-white"><span>Заполнить анкету</span></a></div>
+		<div class="header__logo animation-element"><div><span><img src="images/header_02.webp" alt=""></span></div></div>
+		<div class="header__num-clubs animation-element animation-element-left">
+			<div class="gnh_1"><span>100</span>+</div>
+			<div class="gnh_2">клубов сотрудничают</div>
+			<div class="gnh_2"><span>с нашим агентством</span></div>
+		</div>
+		<div class="header__num-time animation-element animation-element-right">
+			<div class="gnh_1"><span>+</span>8</div>
+			<div class="gnh_2">более 8 лет</div>
+			<div class="gnh_2"><span>успешной работы</span></div>
+		</div>
+		<div class="header__left">
+			<div class="animation-element animation-element-left">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#hotel" />
+				</svg>
+				<span>Бесплатное проживание в апартаментах</span>
+			</div>
+			<div class="animation-element animation-element-left">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#zamok" />
+				</svg>
+				<span>Отработанная система безопасности</span>
+			</div>
+			<div class="animation-element animation-element-left">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#plane" />
+				</svg>
+				<span>Перелет за наш счет</span>
+			</div>
+		</div>
+		<div class="header__right">
+			<div class="animation-element animation-element-right">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#vopros" />
+				</svg>
+				<span>Личные менеджеры на весь контракт</span>
+			</div>
+			<div class="animation-element animation-element-right">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#dengi" />
+				</svg>
+				<span>Гарантированная зарплата от 2000$ в месяц</span>
+			</div>
+			<div class="animation-element animation-element-right">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#sex" />
+				</svg>
+				<span>Интим строго запрещён</span>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="okompany" class="section okompany">
+			<h2 class="section__title okompany__title animation-element animation-element-left">О компании</h2>
+			<div class="section__img okompany__img animation-element animation-element-right">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_01.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_01.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text okompany__text animation-element animation-element-left">«Korea Express» сотрудничает с крупной сетью караоке-клубов. Мы предлагаем выгодные контракты и профессиональную консультацию на каждом этапе работы. Заработок может составлять от 2000 долларов в месяц, а также мы предоставляем поддержку и помощь из любой точки мира. Работа в наших клубах — это ключ к независимости, возможности заработка и открытия новых горизонтов.</div>
+			<div class="okompany__soc animation-element animation-element-left">
+				<a rel="nofollow" target="_blank" href="https://vk.com/korea_express">
+					<svg class="icon add-bookmarks">
+						<use xlink:href="images/icons.svg#vk" />
+					</svg>
+					<span>@korea_express</span>
+				</a>
+				<a rel="nofollow" target="_blank" href="https://t.me/k_exs">
+					<svg class="icon add-bookmarks">
+						<use xlink:href="images/icons.svg#telegram" />
+					</svg>
+					<span>@k_exs</span>
+				</a>
+				<a rel="nofollow" target="_blank" href="https://wa.me/79527911919">
+					<svg class="icon add-bookmarks">
+						<use xlink:href="images/icons.svg#whatsap" />
+					</svg>
+					<span>+7 952 791-19-19</span>
+				</a>
+			</div>
+		</section>
+		<section class="section zadvopros" data-telega="vopros">
+			<h2 class="section__title zadvopros__title animation-element animation-element-right">Задать вопрос</h2>
+			<div class="section__img zadvopros__img animation-element animation-element-left">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_03.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_03.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text zadvopros__form animation-element animation-element-right">
+				<div class="formContainer">
+					<form class="telegramForm" action="telegram_handler.php" method="post">
+						<input type="hidden" name="title" value="Задать вопрос">
+						<input type="text" name="name" placeholder="Имя" maxlength="30" required>
+						<input type="tel" name="phone" placeholder="Телефон" required>
+						<textarea name="question" placeholder="Вопрос" maxlength="1000" required></textarea>
+						<button type="submit" class="btn btn-pink">Отправить</button>
+					</form>
+				</div>
+				<div class="successMessage"><span>Сообщение отправлено</span><button type="button" class="btn btn-white btn-sendmore"><span>Отправить ещё</span></button></div>
+			</div>
+		</section>
+		<section id="orabote" class="section orabote">
+			<h2 class="section__title orabote__title animation-element animation-element-left">О работе</h2>
+			<div class="section__img orabote__img animation-element animation-element-right">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_02.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_02.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text orabote__text animation-element animation-element-left">Девушка-хостес играет ключевую роль в создании приятной атмосферы в заведении. Как только посетитель переступает порог, его встречает приветливая хостес. Она отвечает за разлив алкоголя и поддержание порядка за столами. Кроме того, хостес часто принимают участие в развлекательной программе, исполняя песни в караоке, участвуя в танцевальных номерах или играя настольные игры. Профессия хостес позволяет достойно зарабатывать без образования и предлагает перспективы продвижения. Но главное преимущество этой профессии заключается в том, что она позволяет погрузиться в увлекательную атмосферу развлечений. Общение с людьми дает возможность завести множество полезных знакомств, которые могут быть полезны в будущем. Хостес — это не просто лицо заведения, но и душа вечера.</div>
+		</section>
+		<section class="section trebovan">
+			<h2 class="section__title trebovan__title animation-element animation-element-right">Требования</h2>
+			<div class="section__img trebovan__img animation-element animation-element-left">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_05.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_05.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text trebovan__text">
+				<ul class="seul abroad">
+					<li class="animation-element animation-element-right">Возраст — от 19 до 35 лет.</li>
+					<li class="animation-element animation-element-right">Приятная внешность и отсутствие лишнего веса.</li>
+					<li class="animation-element animation-element-right">Без депортации из Южной Кореи.</li>
+					<li class="animation-element animation-element-right">Заграничный паспорт РФ должен быть действующим ещё как минимум полгода.</li>
+					<li class="animation-element animation-element-right">Гражданам других республик необходима туристическая виза на 3 месяца, которую можно получить в любой турфирме.</li>
+					<li class="animation-element animation-element-right">Знание английского или корейского языка будет являться преимуществом, но не обязательно.</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section zarobotok">
+			<h2 class="section__title zarobotok__title animation-element animation-element-left">Заработок</h2>
+			<div class="section__img zarobotok__img animation-element animation-element-right">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_08.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_08.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text zarobotok__text">
+				<ul class="seul">
+					<li class="animation-element animation-element-left">Девушки получают фиксированный месячный оклад в размере 2 000 000 ₩, а также дополнительную ставку в размере 10 000 ₩ за каждый час работы.</li>
+					<li class="animation-element animation-element-left">Оклад выплачивается ежемесячно, а ставка — каждую неделю.</li>
+					<li class="animation-element animation-element-left">Средний ежемесячный заработок девушек составляет не менее 2 000 $.</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section trebovan">
+			<h2 class="section__title trebovan__title animation-element animation-element-right">Проживание и перелёт</h2>
+			<div class="section__img trebovan__img animation-element animation-element-left">
+				<div>
+					<div class="oki_1"><img loading="lazy" src="images/img_06.webp" alt=""></div>
+					<div class="oki_2"><img loading="lazy" src="images/img_06.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text trebovan__text">
+				<ul class="seul abroad">
+					<li class="animation-element animation-element-right">Есть возможность кредитации авиабилетов, стоимость которых будет вычтена из первого оклада.</li>
+					<li class="animation-element animation-element-right">Билеты на авиарейс оплачиваются, но с условием, что девушка проработает полный срок контракта — не менее двух месяцев. Расходы вычтем из первой зарплаты.</li>
+					<li class="animation-element animation-element-right">Поможем получить электронное разрешение K-ETA для въезда в Южную Корею. Для граждан России и Казахстана разрешение оформляется онлайн в течение суток.</li>
+					<li class="animation-element animation-element-right">С электронным разрешением K-ETA можно работать в Южной Корее в течение двух месяцев и, плюс один месяц, после выезда и заезда.</li>
+					<li class="animation-element animation-element-right">Проживание будет бесплатным, где всё в шаговой доступности — гипермаркет, метро и клуб. Условия проживания могут отличаться, но в целом они хорошие. Не ожидайте квартир, как в России, так как дизайн апартаментов в азиатском стиле. Вы будете жить вместе с теми девушками, с которыми приехали.</li>
+					<li class="animation-element animation-element-right">Рабочий день начинается в 19:00 и заканчивается в 5:00 утра. В дневное время вы будете полностью свободны и сможете гулять, посещать магазины, рестораны и достопримечательности.</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section klubs">
+			<h2 class="section__title klubs__title animation-element">Лучшие клубы Южной Кореи</h2>
+			<div class="section__text klubs__text animation-element">Компания «Korea Express» рекомендует только лучшие и надежные караоке-клубы в Южной Корее. Здесь вы сможете почувствовать себя комфортно и уверенно. Мы прекрасно осведомлены обо всех деталях каждого заведения, с которыми сотрудничаем: количестве посетителей, уровне безопасности и другой внутренней информации. В каждом клубе работают около 10-12 девушек. В ваши обязанности будет входить встреча гостей, общение с ними, пение в караоке, контроль за напитками, создание праздничной атмосферы и проведение настольных игр.</div>
+			<div class="klubs__img">
+				<span><img loading="lazy" class="animation-element" src="images/klub_01.webp" alt=""></span>
+				<span><img loading="lazy" class="animation-element" src="images/klub_02.webp" alt=""></span>
+				<span><img loading="lazy" class="animation-element" src="images/klub_03.webp" alt=""></span>
+				<span><img loading="lazy" class="animation-element" src="images/klub_04.webp" alt=""></span>
+			</div>
+		</section>
+		<section id="kontakti" class="section zadvopros" data-telega="telefon">
+			<h2 class="section__title zadvopros__title animation-element animation-element-right">Заказать звонок</h2>
+			<div class="section__img zadvopros__img animation-element animation-element-left">
+				<div>
+					<div class="oki_1"><img src="images/img_04.webp" alt=""></div>
+					<div class="oki_2"><img src="images/img_04.webp" alt=""></div>
+				</div>
+			</div>
+			<div class="section__text zadvopros__form animation-element animation-element-right">
+				<div class="formContainer">
+					<form class="telegramForm" action="telegram_handler.php" method="post">
+						<input type="hidden" name="title" value="Заказать звонок">
+						<input type="text" name="name" placeholder="Имя" maxlength="30" required>
+						<input type="tel" name="phone" placeholder="Телефон" required>
+						<textarea name="question" placeholder="Вопрос" maxlength="1000" required></textarea>
+						<button type="submit" class="btn btn-pink">Отправить</button>
+					</form>
+				</div>
+				<div class="successMessage"><span>Сообщение отправлено</span><button type="button" class="btn btn-white btn-sendmore"><span>Отправить ещё</span></button></div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__soc">
+			<a rel="nofollow" target="_blank" href="https://vk.com/korea_express">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#vk" />
+				</svg>
+				<span class="title_hide">Мы в ВКонтакте</span>
+			</a>
+			<a rel="nofollow" target="_blank" href="https://t.me/k_exs">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#telegram" />
+				</svg>
+				<span class="title_hide">Мы в Telegram</span>
+			</a>
+			<a rel="nofollow" target="_blank" href="https://wa.me/79527911919">
+				<svg class="icon add-bookmarks">
+					<use xlink:href="images/icons.svg#whatsap" />
+				</svg>
+				<span class="title_hide">Написать в WhatsApp</span>
+			</a>
+		</div>
+		<div class="footer__info">
+			<p><b>Телефон для связи:</b> +7 952 791-19-19</p>
+			<p><b>Email:</b> koreaexpress39@gmail.com</p>
+		</div>
+		<div class="footer_top">
+			<svg class="icon add-bookmarks">
+				<use xlink:href="images/icons.svg#scroltop" />
+			</svg>
+		</div>
+	</footer>
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/lib.js?v=9"></script>
+</body>
+</html>
