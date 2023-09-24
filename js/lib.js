@@ -1,4 +1,4 @@
-// Мобильное меню
+// Mobile menu
 $(document).ready(function () {
 	function functionCloseMenu() {
 		$('.menu.show').css({ 'transform': '', 'transition': 'transform 0.3s ease' });
@@ -32,7 +32,7 @@ $(document).ready(function () {
 	});
 });
 
-// Плавное появление при скроллинге
+// Smooth appearance with scrolling
 $(document).ready(function () {
 	let animItems = document.querySelectorAll('.animation-element');
 
@@ -67,7 +67,7 @@ $(document).ready(function () {
 	}
 });
 
-// Плавный скроллинг к якорю
+// Smooth scrolling to the anchor
 $(document).ready(function () {
 	$("a.scroll").click(function () {
 		elementClick = $(this).attr("href")
@@ -77,7 +77,7 @@ $(document).ready(function () {
 	});
 });
 
-// Форма сообщений в Telegram-канал
+// Messages form in Telegram channel
 $(document).ready(function () {
 	$('[data-telega] .telegramForm').submit(function (e) {
 		e.preventDefault();
@@ -103,7 +103,7 @@ $(document).ready(function () {
 	});
 });
 
-// Для телефона в форме сообщения (jquery.maskedinput.min.js)
+// For a phone in the form (jquery.maskedinput.min.js)
 $(document).ready(function () {
 	$('input[name="phone"]').mask('+7 (999) 999-99-99', { autoclear: false });
 	$('input[name="phone"]').focus(function () {
@@ -113,7 +113,7 @@ $(document).ready(function () {
 	});
 });
 
-// Кнопка в футоре для скроллинга вверх
+// Button up at the very bottom
 $(document).ready(function () {
 	$('.footer_top').click(function () {
 		$('body,html').animate({
