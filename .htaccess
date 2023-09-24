@@ -1,5 +1,3 @@
-DirectoryIndex index.shtml
-
 # Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
 RewriteEngine On
 RewriteCond %{SERVER_PORT} !^443$
