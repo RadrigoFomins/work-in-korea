@@ -1,0 +1,137 @@
+.title_hide {
+	left: -9999px;
+	position: absolute;
+	top: -9999px;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+// Кнопки
+.btn {
+	border: 0 none;
+	cursor: pointer;
+	overflow: hidden;
+	text-decoration: none !important;
+	background: transparent;
+}
+.btn-white,
+.btn-pink {
+	display: inline-flex;
+	align-items: center;
+	height: 3rem;
+	padding: 0 2.2rem;
+	text-transform: uppercase;
+	border-radius: 1.5rem;
+	font-weight: 700;
+}
+.btn-white {
+	background-color: #fff;
+	color: var(--pink);
+	&:hover {
+		color: var(--pink);
+	}
+}
+.btn-pink {
+	background-color: var(--pink);
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 140px;
+		height: 100%;
+		margin-left: -200px;
+		transform: skewX(25deg);
+		overflow: hidden;
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(255, 255, 255, 0.4) 70%,
+			rgba(255, 255, 255, 0) 100%
+		);
+		animation: blik 7s ease-in-out infinite;
+	}
+}
+@keyframes blik {
+	85% {
+		margin-left: -200px;
+	}
+	100% {
+		margin-left: 100%;
+	}
+}
+// img
+%img_pozition {
+	img {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+		overflow: hidden;
+	}
+}
+// Поля форм
+input[type="text"],
+input[type="tel"],
+textarea {
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	padding: 0.8rem 0;
+	width: 100%;
+	font-size: 1.4rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+	color: rgba(255, 255, 255, 0);
+}
+// ul
+.seul {
+	li {
+		position: relative;
+		line-height: 1.3;
+		padding: 1.4rem 0 1.4rem 3.5rem;
+		font-size: max(1.1rem, min(1.3rem, 3vw));
+		&::before {
+			content: "";
+			display: block;
+			width: 2rem;
+			height: 2rem;
+			background-color: var(--pink);
+			border-bottom-right-radius: 0.7rem;
+			border-top-left-radius: 0.7rem;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			margin-top: -1rem;
+		}
+		&:nth-child(even) {
+			color: var(--pink);
+		}
+	}
+	@media (min-width: 992px) {
+		&.abroad {
+			li {
+				padding: 1.4rem 0;
+				&::before {
+					left: -3.5rem;
+				}
+			}
+		}
+	}
+}

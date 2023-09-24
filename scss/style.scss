@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+	--background-body: #1a1a1a;
+	--pink: #d37fdd;
+	--max-width: 71rem;
+}
+
+@import "_reset";
+@import "_other";
+@import "_menu";
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_scroll-animation";
