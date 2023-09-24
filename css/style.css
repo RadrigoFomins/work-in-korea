@@ -462,7 +462,7 @@ textarea:focus::placeholder {
 }
 
 .header__logo {
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
 }
 .header__logo div {
   width: 100%;
@@ -475,7 +475,7 @@ textarea:focus::placeholder {
   height: 0;
   width: 100%;
   overflow: hidden;
-  padding-top: 140%;
+  padding-top: 141.667%;
   border-radius: 5rem;
 }
 
@@ -556,6 +556,7 @@ textarea:focus::placeholder {
   .header__logo {
     grid-column: 2/3;
     grid-row: 3/6;
+    padding-bottom: 2.5rem;
   }
   .header__num-clubs {
     grid-column: 1/2;
